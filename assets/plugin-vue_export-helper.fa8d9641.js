@@ -1,0 +1,1 @@
+import{v as s}from"./vm.1aad4bf1.js";import{p as u,o as a,g as i}from"./index.73094eeb.js";function c(){let e=null;const o=i();function t(){e!==null&&(clearTimeout(e),e=null)}return u(t),a(t),{removeTimeout:t,registerTimeout(r,n){t(),s(o)===!1&&(e=setTimeout(()=>{e=null,r()},n))}}}var f=(e,o)=>{const t=e.__vccOpts||e;for(const[r,n]of o)t[r]=n;return t};export{f as _,c as u};
